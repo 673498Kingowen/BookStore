@@ -1,0 +1,66 @@
+#front-nyhet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#grid-pic {
+    text-align: center;
+}
+
+#grid-pic img {
+    position: relative;
+    display: inline-grid;
+    margin-top: 2px;
+    width: 29rem;
+    cursor: pointer;
+}
+
+#grid th{
+    position: relative;
+    display: inline-grid;
+    margin-inline-start: 280px;
+    margin-bottom: 20px;
+    width: 10rem;
+    cursor: pointer;
+}
+
+.header-box td{
+    white-space: nowrap;
+    margin-right: 1.4rem;
+    list-style-type: none;
+    position: relative;
+    display: inline-block;
+    margin-top: 2px;
+    width: 29rem;
+    cursor: pointer;
+}
+
+:root {
+    /* this has to be set to switch between light or dark */
+    color-scheme: light dark;
+
+    --light-bg: ghostwhite;
+    --light-color: darkslategray;
+    --light-code: tomato;
+
+    --dark-bg: darkslategray;
+    --dark-color: ghostwhite;
+}
+
+footer {
+    margin: 0;
+    background: darkslategray;
+    width: 100%;
+    padding: .4rem 1.4rem;
+}
+
+footer li {
+    white-space: nowrap;
+    margin-right: 1.4rem;
+    list-style-type: none;
+}
